@@ -17,7 +17,7 @@
   },
   "message": "The following service(s) have been created in your project: ${NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/marcelokruk/httpd-ex/blob/master/README.md.",
   "labels": {
-      "template": "httpd-cloudnetuy",
+      "template": "cloudnetuy",
       "app": "httpd-cloudnetuy"
   },
   "objects": [
@@ -170,7 +170,7 @@
           "spec": {
             "containers": [
               {
-                "name": "httpd-cloudnetuy",
+                "name": "cloudnetuy",
                 "image": " ",
                 "ports": [
                   {
@@ -213,7 +213,7 @@
       "displayName": "Name",
       "description": "The name assigned to all of the frontend objects defined in this template.",
       "required": true,
-      "value": "httpd-cloudnetuy"
+      "value": "cloudnetuy"
     },
     {
       "name": "NAMESPACE",
