@@ -144,7 +144,7 @@
             "imageChangeParams": {
               "automatic": true,
               "containerNames": [
-                "httpd-example"
+                "httpd-cloudnetuy"
               ],
               "from": {
                 "kind": "ImageStreamTag",
