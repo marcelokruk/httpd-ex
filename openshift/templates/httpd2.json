@@ -2,7 +2,7 @@
   "kind": "Template",
   "apiVersion": "v1",
   "metadata": {
-    "name": "httpd-example",
+    "name": "httpd-cloudnetuy",
     "annotations": {
       "openshift.io/display-name": "Apache HTTP Server",
       "description": "An example Apache HTTP Server (httpd) application that serves static content. For more information about using this template, including OpenShift considerations, see https://github.com/sclorg/httpd-ex/blob/master/README.md.",
@@ -17,8 +17,8 @@
   },
   "message": "The following service(s) have been created in your project: ${NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/sclorg/httpd-ex/blob/master/README.md.",
   "labels": {
-      "template": "httpd-example",
-      "app": "httpd-example"
+      "template": "httpd-cloudnetuy",
+      "app": "httpd-cloudnetuy"
   },
   "objects": [
     {
@@ -234,7 +234,7 @@
       "displayName": "Git Repository URL",
       "description": "The URL of the repository with your application source code.",
       "required": true,
-      "value": "https://github.com/sclorg/httpd-ex.git"
+      "value": "https://github.com/marcelokruk/httpd-ex.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
